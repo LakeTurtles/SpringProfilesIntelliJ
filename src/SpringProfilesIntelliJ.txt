@@ -1,0 +1,28 @@
+Spring Profiles in IntelliJ
+
+
+Go to [Edit Configurations] in the [Run Application] dropDown box.
+
+If not already present. Click on  [edit/new Configuration]. Select for the [Application]
+
+Next to the [Java SDK] selection box. Click on [Modify Options] dropDown.
+
+Click on [Add VM Options].
+
+Under [Modify Options] enter into the [VM options] input Box.
+
+[-Dspring.profiles.active=developerGroup66]
+
+(The name of the file should be [application-developerGroup66.properties])
+
+(If the name of the file is [application-liveCoding247.properties])
+([-Dspring.profiles.active=liveCoding247])
+
+(By default the properties files is [application.properties])
+(Enter your properties in the default file and you don't have to edit default run configurations)
+
+Select and input into the [Main class] path input box the launch File where you would normally press the play button from such as [src.web.springApp] or the Path of [your] Application.
+
+You can rename the Configuration setting to a Custom Name at the top.
+
+Click Apply and Ok.
